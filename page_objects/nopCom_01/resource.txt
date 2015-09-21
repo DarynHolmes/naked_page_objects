@@ -1,0 +1,4 @@
+fail "Expected to be on #{registered_url} but was on #{URI.parse(current_url).path}" unless displayed?
+
+
+fill_in 'donation_pledge_hundreds_id', with: "10"

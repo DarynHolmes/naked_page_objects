@@ -1,0 +1,18 @@
+
+
+http://demo.nopcommerce.com/
+http://stackoverflow.com/questions/565095/are-getters-and-setters-poor-design-contradictory-advice-seen
+http://stackoverflow.com/questions/996179/allen-holub-wrote-you-should-never-use-get-set-functions-is-he-correct
+
+
+fail "Expected to be on #{registered_url} but was on #{URI.parse(current_url).path}" unless displayed?
+
+  def load
+    visit @url
+    fail "Expected to be on #{@url} but was on #{URI.parse(current_url).path}" unless displayed?
+    self
+  end
+
+  def displayed?
+    URI.parse(current_url).path == @url
+  end

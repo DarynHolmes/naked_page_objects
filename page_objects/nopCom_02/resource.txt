@@ -1,0 +1,1 @@
+fail "Expected to be on #{registered_url} but was on #{URI.parse(current_url).path}" unless displayed?

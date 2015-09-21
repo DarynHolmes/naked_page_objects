@@ -1,0 +1,13 @@
+libpeerconnection.log
+tags
+data/tmp/
+test-fulcrum.sublime-project
+test-fulcrum.sublime-workspace
+*.gem
+*.png
+*.html
+report
+.DS_Store
+.idea
+*.*~
+fulcrum_specs/test/

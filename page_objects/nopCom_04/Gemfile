@@ -1,0 +1,20 @@
+# rubocop:disable all
+source 'https://rubygems.org'
+
+gem 'selenium-webdriver'
+gem 'capybara'
+gem 'minitest'
+gem 'minitest-reporters'
+gem 'rake'
+gem 'pry'
+gem 'pry-debugger'
+gem 'poltergeist'
+gem 'require_all'
+gem 'headless'
+gem 'awesome_print'
+gem 'rubocop'
+gem 'rubocop-checkstyle_formatter'
+gem 'm'
+gem 'faker'
+gem 'fulcrum_specs_lib', path: '../../fulcrum_specs_lib'
+# rubocop:enable all
